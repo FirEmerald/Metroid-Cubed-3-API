@@ -97,14 +97,14 @@ public abstract class MetroidPlanet
 		if (ridden instanceof IEntityShip)
 		{
 			int j = ridden.chunkCoordX;
-            int l = ridden.chunkCoordZ;
-            if (ridden.addedToChunk)
-            {
-            	ridden.worldObj.getChunkFromChunkCoords(j, l).removeEntity(ridden);
-            }
-            ridden.worldObj.loadedEntityList.remove(ridden);
-            ridden.worldObj.onEntityRemoved(ridden);
-            
+			int l = ridden.chunkCoordZ;
+			if (ridden.addedToChunk)
+			{
+				ridden.worldObj.getChunkFromChunkCoords(j, l).removeEntity(ridden);
+			}
+			ridden.worldObj.loadedEntityList.remove(ridden);
+			ridden.worldObj.onEntityRemoved(ridden);
+			
 			manager.transferEntityToWorld(ridden, dimension, (WorldServer) ridden.worldObj, world, teleporter);
 			
 			player.mountEntity(ridden);

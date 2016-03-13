@@ -4,4 +4,6 @@ package metroidcubed3.api.entity;
 public interface IEntityShip
 {
 	public void setNeedsMounting();
+	
+	public void setMounted();
 }
