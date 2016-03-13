@@ -13,18 +13,23 @@ import net.minecraft.server.management.ServerConfigurationManager;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.WorldServer;
 
+/** Don't forget to register the planet using
+ *  {@link MetroidPlanetRegistry#addPlanet},
+ *  otherwise it won't show up in the ship GUI*/
 public abstract class MetroidPlanet
 {
-	/** not needed if using custom teleporter code */
+	/** NOT REQUIRED
+	 * a single planet can reference multiple dimensions, and vice-versa */
 	private final int dimension;
-	
+	/** NOT REQUIRED
+	 *  A planet's name can be dynamic */
 	private final String name; 
 	/** this planet's ID.
 	 * MUST BE UNIQUE, AND THE SAME FOR BOTH CLIENT AND SERVER.
 	 * a good practice is to prefix it with your mod ID, e.g. mc3.talloniv*/
 	public final String id;
 	
-	/**planet {@link #id}, planet {@link #name}, planet {@link #dimension} */
+	/**args: planet {@link #id}, planet {@link #name}, planet {@link #dimension} */
 	public MetroidPlanet(String id, String name, int dimension)
 	{
 		this.id = id;
@@ -32,19 +37,19 @@ public abstract class MetroidPlanet
 		this.dimension = dimension;
 	}
 	
-	/**planet {@link #id}, planet {@link #dimension} */
+	/**args: planet {@link #id}, planet {@link #dimension} */
 	public MetroidPlanet(String id, int dimension)
 	{
 		this(id, null, dimension);
 	}
 	
-	/**planet {@link #id}, planet {@link #name} */
+	/**args: planet {@link #id}, planet {@link #name} */
 	public MetroidPlanet(String id, String name)
 	{
 		this(id, name, 0);
 	}
 	
-	/**planet {@link #id} */
+	/**args: planet {@link #id} */
 	public MetroidPlanet(String id)
 	{
 		this(id, 0);
