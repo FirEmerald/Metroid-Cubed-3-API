@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tags>
+	<tag name="owner" location="mc3:textures/tags/samus_logo.png"/>
+	<tag name="worker" location="mc3:textures/tags/samus_logo.png"/>
+	<tag name="worker_alt" location="mc3:textures/tags/samus_logo.png"/>
+	<tag name="donator" location="mc3:textures/tags/samus_logo.png"/>
+	<tag name="youtuber" location="mc3:textures/tags/samus_logo.png"/>
+	<assignment name="FirEmerald" uuid="1fe9501b-3940-4c6c-ac46-c902e62539b3" tag="owner"/>
+	<assignment name="Justin" uuid="8528dcc2-12d9-478c-a612-ef18cc9b3fc1" tag="worker"/>
+	<assignment name="Devin" uuid="21a95da5-f6fd-4e08-9f68-750c42ff2762" tag="worker"/>
+	<assignment name="Jessica" uuid="c4eba338-759d-48b5-8c92-0c07a4e7ceeb" tag="worker"/>
+	<assignment name="Joe" uuid="b2c535da-c2a7-4144-aab1-f72dbba135a9" tag="worker"/>
+	<assignment name="ninjabee" uuid="91c2eacb-2367-46ee-93d3-6983717a70dc" tag="worker"/>
+	<assignment name="akuma" uuid="3bfaed65-55f0-4a01-9b0f-cd78012b649d" tag="worker"/>
+	<assignment name="james" uuid="1212258b-5cc2-441a-bf31-e0640054e320" tag="worker"/>
+	<assignment name="Martin" uuid="d8eee67a-1484-4f79-a7e0-ac7ca2961ea3" tag="worker_alt"/>
+	<assignment name="mastermindjv" uuid="fdf2e70b-3fcd-4d32-866c-22ddceebd755" tag="donator"/>
+	<assignment name="Fairess" uuid="a6c60807-a0be-47b2-9057-0654c4b3c950" tag="doantor"/>
+	<assignment name="Erik" uuid="9e34ae5e-5425-432d-b11c-122ad6770199" tag="donator"/>
+	<assignment name="zackonark" uuid="b786574a-f368-45a2-86b4-c45635846504" tag="youtuber"/>
+	<assignment name="PlayStar" uuid="8f454ca5-beb3-4f86-ab44-9936dd064052" tag="youtuber"/>
+	<assignment name="Crayer" uuid="a49cceee-cc55-4235-ad65-c2217aa279fd" tag="youtuber"/>
+</tags>
