@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <tags>
-	<tag name="owner" location="mc3:textures/tags/samus_logo.png"/>
-	<tag name="worker" location="mc3:textures/tags/samus_logo.png"/>
-	<tag name="worker_alt" location="mc3:textures/tags/samus_logo.png"/>
-	<tag name="donator" location="mc3:textures/tags/samus_logo.png"/>
-	<tag name="youtuber" location="mc3:textures/tags/samus_logo.png"/>
+	<tag name="owner" location="mc4:textures/tags/samus_logo.png"/>
+	<tag name="worker" location="mc4:textures/tags/samus_logo.png"/>
+	<tag name="worker_alt" location="mc4:textures/tags/samus_logo.png"/>
+	<tag name="donator" location="mc4:textures/tags/samus_logo.png"/>
+	<tag name="youtuber" location="mc4:textures/tags/samus_logo.png"/>
 	<assignment name="FirEmerald" uuid="1fe9501b-3940-4c6c-ac46-c902e62539b3" tag="owner"/>
 	<assignment name="Justin" uuid="8528dcc2-12d9-478c-a612-ef18cc9b3fc1" tag="worker"/>
 	<assignment name="Devin" uuid="21a95da5-f6fd-4e08-9f68-750c42ff2762" tag="worker"/>
